@@ -105,9 +105,9 @@ This notebook runs in Python and needs a MongoDB Atlas cluster to connect to. Se
 4. Go to Database Access, create a database user with read and write permission to any database. Save the password somewhere safe because Atlas does not show it again
 5. Go back to your cluster, click Connect, choose Drivers, pick Python as the driver, and copy the connection string. It will look like this:
 
-   ```
+   
    mongodb+srv://your_user:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-   ```
+   
 
 6. Replace `<password>` with the actual password from step 4. No angle brackets. The result is the full connection string you paste into the notebook
 
