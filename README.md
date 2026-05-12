@@ -126,7 +126,7 @@ This notebook runs in Python and needs a MongoDB Atlas cluster to connect to. Se
   - `asset_lifecycle` - one document per vehicle with performance summary and incident history embedded
   - `platform_events` - one document per session with events nested as an ordered array
 - CRUD operations - insert one customer, find with filters and projections, update one customer, update many vehicles in one call, delete one customer
-- Four aggregation pipelines using `$unwind`, `$group`, `$filter`, `$addFields`, and `$project`
+- Four aggregation pipelines using `unwind`, `group`, `filter`, `addFields`, and `project`
 - Indexes - single field, unique, and compound, with justification for each
 - Three query optimisation tests using `explain("executionStats")` showing the COLLSCAN to IXSCAN transition for a single-field filter, a range query, and a compound query
 
